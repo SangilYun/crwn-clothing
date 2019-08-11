@@ -19,4 +19,5 @@ const MenuItem = ({title, imageUrl, size, history, linkUrl, match}) => (
     </div>
 )
 
+//with withRouter now we have an access to history props
 export default withRouter(MenuItem);
